@@ -4,6 +4,17 @@ def mario
 end
 
 def toadstool
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+  status = "Thank You Mario! But Our Princess Is In Another Castle!"
   puts status
+end
+
+def link
+  catchphrase = "It's Dangerous To Go Alone! Take This."
+  puts catchphrase
+end
+
+def all_phrases
+  mario
+  toadstool
+  link
 end
